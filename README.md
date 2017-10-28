@@ -26,3 +26,18 @@ export MONGODB_PASSWORD='password'
     "password": "${MONGODB_PASSWORD}",
 ```
 
+## Generate a Swagger or Open API Specification 
+
+See [Loopback API Definition Generator](https://loopback.io/doc/en/lb3/API-definition-generator.html).
+
+## Add API Management with API Key to Server
+
+## Send a Request from Client
+
+```bash
+curl --request GET \
+  --url 'https://sparkrapi.mybluemix.net/api/Members?filter=REPLACE_THIS_VALUE' \
+  --header 'accept: application/json' \
+  --header 'x-ibm-client-id: apikey'
+```
+
