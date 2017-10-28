@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongodb": {
+    "name": "mongodb",
+    "host": "${MONGODB_HOST}",
+    "port": "${MONGODB_PORT}",
+    "url": "${MONGODB_URL}",
+    "database": "${MONGODB_DATABASE}",
+    "user": "${MONGODB_USER}",
+    "password": "${MONGODB_PASSWORD}",
+    "connector": "mongodb"
   }
 }
