@@ -16,13 +16,13 @@
     },
     "members": {
       "type": [
-        "number"
+        "string"
       ],
       "required": true
     },
     "invitations": {
       "type": [
-        "number"
+        "string"
       ]
     }
   },
