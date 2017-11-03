@@ -45,6 +45,12 @@
       "principalId": "$everyone",
       "permission": "ALLOW",
       "property": "findById"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
     }
   ],
   "methods": {}
