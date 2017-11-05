@@ -10,16 +10,12 @@
       "type": "string",
       "required": true
     },
-    "memberId": {
-      "type": "string",
+    "member": {
+      "type": "Member",
       "required": true
     },
-    "teamId": {
-      "type": "string",
-      "required": true
-    },
-    "teamOwnerId": {
-      "type": "string",
+    "team": {
+      "type": "Team",
       "required": true
     },
     "requestType": {
@@ -37,7 +33,7 @@
   },
   "validations": [],
   "relations": {
-    "team": {
+    "requestBelongsToTeam": {
       "type": "belongsTo",
       "model": "Team",
       "foreignKey": ""
