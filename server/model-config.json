@@ -43,5 +43,9 @@
   "Team": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Request": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
