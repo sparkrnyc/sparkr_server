@@ -29,6 +29,10 @@
     "requestStatus": {
       "type": "string",
       "required": true
+    },
+    "dateCreated": {
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],
