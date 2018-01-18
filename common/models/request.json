@@ -32,12 +32,8 @@
     }
   },
   "validations": [],
+  
   "relations": {
-    "requestBelongsToTeam": {
-      "type": "belongsTo",
-      "model": "Team",
-      "foreignKey": ""
-    }
   },
   "acls": [
     {

@@ -1,7 +1,7 @@
 ---
 applications:
-- name: sparkrapi
-  host: sparkrapi
+- name: remkohdev-sparkr-api
+  host: remkohdev-sparkr-api
   memory: 1024M
   path: .
   instances: 1
